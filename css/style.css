@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 500px;
+    margin: auto;
+}
+header{
+    background-image: url(../assets/image/gente.jpg);
+    background-position:center;
+    background-size: cover;
+    height: 30dvh;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+.opacidad{
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    margin-top: 40px;
+    padding: 10px;
+}
+.texto_index{
+    text-align: left;
+    padding: 10px;
+}
+.btn_index{
+    text-align: center;
+    padding: 10px;
+}
+.btn_index a{
+    border: 1px solid green;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    font-weight: 900;
+    background-color: rgb(111, 168, 111);
+    text-decoration: none;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+
+}
+.mosaico{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 20px;
+}
+.mosaico img{
+    width: 100%;
+}
+/*********Footer******************/
+footer{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: rgb(104, 103, 103);
+    color: white;
+    padding: 30px;
+    margin-top: 20px;
+}
+.copy{
+    text-align: center;
+    margin-top: 20px;
+}
+.media{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+/*****Formulario*********/
+.header_form{
+    text-align: center;
+}
+.form_content{
+    max-width: 500px;
+    margin: auto;
+    padding: 5px;
+    background-color: rgb(232, 238, 236);
+}
+.label_input p{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+#edades{
+    display: flex;
+}
+.input_mayor_edad{
+    border: 2px solid blue;
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgb(215, 215, 240);
+}
+.input_menor_edad{
+    border: 2px solid rgb(240, 33, 6);
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgb(240, 220, 215);
+}
+.input_mayor_edad label{
+    padding-right: 10px;
+}
+.input_menor_edad label{
+    padding-right: 10px;
+}
+.oculto {
+  visibility: hidden;
+}
+.adultos{
+    width: 100%;
+}
+.adultos .label_input{
+    width: 100%;
+}
+.adultos .label_input input{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.adultos .label_input select{
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.pass{
+    display: flex;
+}
+.pass div{
+    text-align: left;
+    margin: 5px;
+}
+.btns{
+    display: flex;
+    margin-top: 10px;
+    padding: 10px;
+}
+.btn input{
+    width: 100px;
+    padding: 3px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    color: white;
+}
+.btn_enviar input{
+    background-color: rgb(143, 170, 229);
+}
+.btn_reset input{
+    background-color: rgb(224, 93, 42);
+}
+/**********Perfil*********************/
+.perfil_content{
+    max-width: 500px;
+    margin: auto;
+    
+}
+.header_perfil{
+    text-align: center;
+    padding: 10px;
+}
+.foto_perfil{
+    text-align: center;
+}
+.foto_perfil {
+    width: 200px;
+    height: 200px;
+    background-image: url(../assets/image/3.jpg);
+    background-size:cover;
+    border-radius: 50%;
+}
+.perfil_content .user_name{
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+}
+.opciones_busqueda{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.opciones_busqueda a{
+    width: 90%;
+    padding: 10px;
+    border: 2px solid green;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(79, 170, 79);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    font-weight: 800;
+}
+/******User List***********/
+.user_list_content{
+    max-width: 500px;
+    margin: auto;
+}
+.user_list_content .header_user_list{
+    text-align: center;
+    padding: 5px;
+    background-color: aquamarine;
+} 
+.user_list_content section{
+    max-width: 500px;
+    padding: 5px;
+    background-color: rgb(212, 235, 227);
+}
+.user_list_content section article a{
+    border: 2px solid gray;
+    display: flex;
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 30px;
+    background-color: whitesmoke;
+}
+.user_list_content section article div{
+    width: 50%;    
+}
+.user_list_content section article .user_img_user_list img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.user_list_content section article .user_name_user_list{
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+} 
+/************Chat*****************/
+.chat_content{
+    background-color: black;
+}  
+.chat_header{
+    text-align: center;
+    background-color: aquamarine;
+}
+.chat_commun_content{
+    background-color: rgb(162, 165, 165);
+    border: 3px solid black;
+}
+.chat_guest_fhoto{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url(../assets/image/10.jpg);
+    background-size: cover;
+}
+.chat_chatting{
+    height: 60dvh;
+    position: relative;
+    background-color: rgb(212, 235, 227);
+    border-top: 3px solid black;
+}
+.chat_chatting .chatting_button{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.chatting_button{
+    padding: 5px;
+}
+.chatting_button .label_escribir input{
+    width: 80%;
+    padding: 5px;
+    border-radius: 8px;
+}
+#enviar_chat{
+    width: 18%;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+
+
+

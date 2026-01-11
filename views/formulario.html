@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>prueba</title>
+</head>
+<body>
+    <div class="header_form">
+        <h2>Bienvenido a...</h2>
+        <h1>Mate connected</h1>
+    </div>
+    <div class="form_content">
+        <form action="../views/perfil.html">
+            <div class="label_input">
+                <div>
+                    <p>Edad <small>(18 o mas)</small></p>
+                </div>
+                <div id="edades" class="input_mayor_menos">
+                    <div class="input_mayor_edad">
+                        <label for="mayor">Si</label><input type="radio" id="mayor" name="edad" value="adulto">
+                    </div>
+                    <div class="input_menor_edad">
+                        <label for="menor">No</label><input type="radio" id="menor" name="edad" value="no_adulto" >
+                    </div>
+                </div>
+            </div>
+            <div class="adultos">
+                <div class="label_input">
+                    <div>
+                        <label for="nombre">Nombre <small>(entre 3 y 20 caracteres)</small></label>
+                    </div>
+                    <div>
+                        <input type="text" id="nombre">
+                    </div>    
+                </div>
+                <div class="label_input">
+                    <div>
+                        <label for="apellido">Apellido <small>(entre 3 y 50 caracteres)</small></label>
+                    </div>
+                    <div>
+                        <input type="text" id="apellido">
+                    </div> 
+                </div>
+                <div class="label_input">
+                    <div>
+                        <label for="email">Email <small></small></label>
+                    </div>
+                    <div>
+                        <input type="text" id="email">
+                    </div>
+                </div>    
+                <div class="label_input">
+                    <div>
+                        <label for="pais">Pais <small>(residencia)</small></label>
+                    </div>
+                    <div>
+                        <select name="pais" id="pais">
+                            <option value="--selecciona un pais--">--Selecciona un pais--</option>
+                            <option value="austria">Austria</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="label_input">
+                    <div>
+                        <label for="ciudad">Ciudad <small></small></label>
+                    </div>
+                    <div>
+                       <input type="text" id="ciudad"> 
+                    </div>
+                </div>
+                <div class="label_input">
+                    <div>
+                        <label for="cp">Codigo postal <small></small></label>
+                    </div>
+                    <div>
+                       <input type="text" id="cp"> 
+                    </div>
+                </div>
+                <div class="label_input">
+                    <div>
+                        <label for="usuario">Nombre de usuario <small>(entre 3 y 20 caracteres)</small></label>
+                    </div>
+                    <div>
+                       <input type="text" id="usuario"> 
+                    </div>
+                </div>
+                <div class="label_input">
+                    <div>
+                        <label for="pass">Password <small>(entre 6 y 10 caracteres)</small></label>
+                    </div>
+                    <div>
+                       <input type="password" id="pass"> 
+                    </div>
+                </div>
+                <div class="label_input">
+                    <div>
+                        <label for="rep_pass">Repetir password <small></small></label>
+                    </div>
+                    <div>
+                       <input type="password" id="rep_pass"> 
+                    </div>
+                </div>
+                <div class="label_input pass">
+                    <div>
+                       <label for="ver_pass">Ver Password</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="ver_pass">
+                    </div>
+                </div>
+                <div class="politica">
+                    <div class="link_politica">
+                        <a href="#">Klick para leer politica...</a>
+                    </div>
+                    <div class="confirmar_politica">
+                        <label for="politica">Acepto los terminos y condiciones.</label>
+                        <input type="checkbox" name="politica" id="politica">
+                    </div>
+                </div>
+                <div class="btns">
+                    <div class="btn_enviar btn">
+                        <input type="submit" value="Enviar">
+                    </div>
+                    <div class="btn_reset btn">
+                        <input type="reset" value="Reset">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+<script src="../js/adultos.js"></script>
+</body>
+</html>
