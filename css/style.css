@@ -251,7 +251,7 @@ footer{
     background-size: cover;
 }
 .chat_chatting{
-    height: 60dvh;
+    height: 70dvh;
     position: relative;
     background-color: rgb(212, 235, 227);
     border-top: 3px solid black;
